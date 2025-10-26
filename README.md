@@ -1,18 +1,29 @@
-## Getting Started
+# 🧩 Trabalho de Composição da 2ª Nota – Estrutura de Dados
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 🎯 Objetivo
+O objetivo deste trabalho é **consolidar os conhecimentos sobre estruturas de dados dinâmicas** através da implementação de **listas encadeadas em Java**, sem o uso de bibliotecas prontas.  
+O projeto visa demonstrar o funcionamento completo de cada tipo de lista e compreender as operações fundamentais de manipulação de dados.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📘 Descrição do Trabalho
+O aluno deverá desenvolver **três projetos Java distintos**, sendo cada um responsável por uma estrutura de lista:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. **Lista Encadeada Simples**  
+2. **Lista Duplamente Encadeada**  
+3. **Lista Encadeada Circular**
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Cada estrutura deve ser implementada manualmente, utilizando conceitos de **nós (nodes)** e **ponteiros (referências como início, próximo, anterior e fim)**, sem o uso de classes prontas como `ArrayList`, `LinkedList` ou outras coleções da API Java.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## ⚙️ Requisitos de Implementação
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Cada lista deverá obrigatoriamente implementar as seguintes operações:
+
+| Operação | Descrição |
+|-----------|------------|
+| **Inserção** | Inserir elementos no início, meio ou final da lista. |
+| **Busca** | Localizar um elemento específico pelo valor. |
+| **Remoção** | Remover um elemento específico da lista. |
+| **Listagem** | Exibir todos os elementos armazenados na estrutura. |
